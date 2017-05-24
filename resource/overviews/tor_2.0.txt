@@ -3,6 +3,6 @@ tor_2.0
 	material materials/overviews/tor_2.0.vmat
 	pos_x -9472
 	pos_y 9472
-	scale 18.500
+	scale 18.00
 }
 

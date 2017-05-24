@@ -2,7 +2,7 @@
 {
 	maps			"tor_2.0"
 	"IsPlayable"	"1"
-	"tor_2.0"
+	"tor_2.01"
 	{
 					"MaxPlayers"                    "20"
 	}
