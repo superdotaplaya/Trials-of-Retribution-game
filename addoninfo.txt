@@ -1,6 +1,6 @@
 "AddonInfo"
 {
-	maps			"tor_2.0"
+	maps			"tor_2.01"
 	"IsPlayable"	"1"
 	"tor_2.01"
 	{
