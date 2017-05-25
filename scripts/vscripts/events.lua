@@ -321,9 +321,9 @@ function Trialsofretribution:OnCustomTowerKilled( keys )
 EmitAnnouncerSound("announcer_ann_custom_tower_fall_01") end
     if(tower_name == "direbot1" or tower_name == "direbot2" or tower_name == "direbot3" or tower_name == "diremid1" or tower_name == "diremid2" or tower_name == "diremid3" or tower_name == "diretop1" or tower_name == "diretop2" or tower_name == "diretop3" or tower_name == "diretop4" or tower_name == "direbot4") then
 EmitAnnouncerSound("announcer_ann_custom_tower_fall_03")end
-	if(tower_name == "tempestbot1" or tower_name == "temestbot2" or tower_name == "tempestbot3" or tower_name == "tempestmid1" or tower_name == "tempestmid2" or tower_name == "tempestmid3" or tower_name == "tempesttop1" or tower_name == "tempesttop2" or tower_name == "tempesttop3" or tower_name == "tempesttop4" or tower_name == "tempestbot4") then
+	  if(tower_name == "fallbot1" or tower_name == "fallbot2" or tower_name == "fallbot3" or tower_name == "fallmid1" or tower_name == "fallmid2" or tower_name == "fallmid3" or tower_name == "falltop1" or tower_name == "falltop2" or tower_name == "falltop3" or tower_name == "falltop4" or tower_name == "fallbot4") then
 EmitAnnouncerSound("announcer_ann_custom_tower_fall_02")end
-	if(tower_name == "altiarbot1" or tower_name == "altiarbot2" or tower_name == "altiarbot3" or tower_name == "altiarmid1" or tower_name == "altiarmid2" or tower_name == "altiarmid3" or tower_name == "altiartop1" or tower_name == "altiartop2" or tower_name == "altiartop3" or tower_name == "altiartop4" or tower_name == "altiarbot4") then
+	  if(tower_name == "altiarbot1" or tower_name == "altiarbot2" or tower_name == "altiarbot3" or tower_name == "altiarmid1" or tower_name == "altiarmid2" or tower_name == "altiarmid3" or tower_name == "altiartop1" or tower_name == "altiartop2" or tower_name == "altiartop3" or tower_name == "altiartop4" or tower_name == "altiarbot4") then
 EmitAnnouncerSound("announcer_ann_custom_tower_fall_11")end
  
     local tower_num = tonumber(tower_name:sub(string.len(tower_name),string.len(tower_name)))
