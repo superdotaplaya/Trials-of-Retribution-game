@@ -5,8 +5,8 @@
 	"Neutrals"        								"Neutral Team"
 	"NoTeam"          								"No Team"
 
-	"DOTA_Custom1"    								"Tempest"
-	"DOTA_Custom2"    								"Altiar"
+	"DOTA_Custom1"    								"Motis"
+	"DOTA_Custom2"    								"Tempest"
 	"DOTA_Custom3"    								"Radiant"
 	"DOTA_Custom4"    								"Dire"
 	"DOTA_Custom5"    								"Brown Rat"

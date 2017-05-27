@@ -18,14 +18,23 @@
 	{
 	 "AbilityLayout" "4"
 	 "override_hero"	"npc_dota_hero_axe"
-	 "souindset"		"0"
+	 "soundset"		"0"
 	 "ability3"			"counter_helix_datadriven"
 	 }
 		"npc_dota_hero_slark_tor"
 	{
 	 "AbilityLayout" "4"
 	 "override_hero"	"npc_dota_hero_slark"
-	 "souindset"		"0"
+	 "soundset"		"0"
 	 "ability3"			"slark_essence_shift_datadriven"
 	 }
+		"npc_dota_hero_zuus_tor"
+	{
+	 "AbilityLayout" "5"
+	 "override_hero"	"npc_dota_hero_zuus"
+	 "soundset"		"0"
+	 "ability4"			"thundergods_wrath_datadriven"
+	 }
 }
+
+
