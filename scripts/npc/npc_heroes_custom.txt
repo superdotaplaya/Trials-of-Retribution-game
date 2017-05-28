@@ -28,13 +28,14 @@
 	 "soundset"		"0"
 	 "ability3"			"slark_essence_shift_datadriven"
 	 }
-		"npc_dota_hero_zuus_tor"
+		"npc_dota_hero_bloodseeker_tor"
 	{
-	 "AbilityLayout" "5"
-	 "override_hero"	"npc_dota_hero_zuus"
+	 "AbilityLayout" "4"
+	 "override_hero"	"npc_dota_hero_bloodseeker"
 	 "soundset"		"0"
-	 "ability4"			"thundergods_wrath_datadriven"
+	 "ability3"			"thirst"
 	 }
+	 
 }
 
 
