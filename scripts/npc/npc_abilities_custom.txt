@@ -707,5 +707,78 @@
 		}
 	}
 	}
+	"speed_boost_ancient"
+{
+  // General
+  //-------------------------------------------------------------------------------------------------------------
+  "BaseClass"       "ability_datadriven"
+  "AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+  "AbilityUnitTargetTeam"     "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+  "SpellImmunityType"       "SPELL_IMMUNITY_ENEMIES_YES"
+  "AbilityTextureName"      "omniknight_degen_aura"
+  
+  // Casting
+  //-------------------------------------------------------------------------------------------------------------
+  "AbilityCastRange"        "700"
+  
+  // Special
+  //-------------------------------------------------------------------------------------------------------------
+  "AbilitySpecial"
+  {
+    "01"
+    {
+      "var_type"        "FIELD_INTEGER"
+      "bonus_movement_speed"     "20"
+    }
+    "02"
+    {
+      "var_type"        "FIELD_INTEGER"
+      "radius"        "100000"
+    }
+  }
+
+  "precache"
+  {
+    "soundfile" "soundevents/game_sounds_heroes/game_sounds_omniknight.vsndevts"
+    "particle"  "particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_freezing_field_frostgrow_arcana1.vpcf"
+  }
+
+  "Modifiers"
+  {
+    "modifier_degen_aura"
+    {
+      "Passive"       "1"
+      "IsHidden"      "1"
+      "IsBuff"      "1"
+
+      "Aura"        "modifier_degen_aura_effect"
+      "Aura_Radius"     "%radius"
+      "Aura_Teams"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+      "Aura_Types"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_MECHANICAL"
+    }
+     "modifier_self_particle"
+    {
+      "Passive"       "1"
+      "IsHidden"      "1"
+      "IsBuff"      "1"
+            "EffectName"    "particles/econ/items/crystal_maiden/crystal_maiden_maiden_of_icewrack/maiden_freezing_field_frostgrow_arcana1.vpcf"
+      "EffectAttachType"  "follow_origin"
+      "Target"    "TARGET"
+      }
+
+    "modifier_degen_aura_effect"
+    {
+      "IsDebuff"      "0"
+      "Properties"
+      {
+        "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"  "20"
+   
+      }
+    }
+
+  }
+
+
+}
 }
  

@@ -4695,7 +4695,7 @@
 		//----------------------------------------------------------------
 		
 		"Ability1"					"backdoor_protection"			// Ability 1.
-		"Ability2"					""			// Ability 2.
+		"Ability2"					"speed_boost_ancient"			// Ability 2.
 		"Ability3"					""			// Ability 3.
 		"Ability4"					""			// Ability 4.
 		"Ability5"					""			// Ability 5.
@@ -10359,5 +10359,9 @@
 		"VisionDaytimeRange"		"1000000"		// Range of vision during day light.
 		"VisionNighttimeRange"		"1000000"		// Range of vision at night time.
 	}	
+	"dota_fountain"
+	{
+	"Ability3" "speed_boost_ancient"
+	}
 
 }

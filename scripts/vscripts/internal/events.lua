@@ -10,7 +10,7 @@ function Trialsofretribution:_OnGameRulesStateChange(keys)
   elseif newState == DOTA_GAMERULES_STATE_INIT then
     --Timers:RemoveTimer("alljointimer")
   elseif newState == DOTA_GAMERULES_STATE_HERO_SELECTION then
-    multiteam_hero_select_overlay:OnUpdateHeroSelection()
+   
     Trialsofretribution:PostLoadPrecache()
     Trialsofretribution:OnAllPlayersLoaded()
 
