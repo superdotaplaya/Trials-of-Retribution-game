@@ -597,7 +597,7 @@
 		"02"
 		{
 			"var_type" "FIELD_INTEGER"
-			"buff_threshold_pct" "75"
+			"buff_threshold_pct" "30"
 		}
 		"03"
 		{
