@@ -512,12 +512,27 @@ function SpawnCreepssiegealtiar()
     unit:SetInitialGoalEntity( waypoint )
 end
 
-    local start_after = 1200 -- Start this timer *start_after* game-time seconds later
+
+
+
+-- JUNGLE CAMP FUNCTIONS
+    local start_after = 0 -- Start this timer *start_after* game-time seconds later
+    local repeat_interval = 60
     print ("Timer 2 is running")
     Timers:CreateTimer(start_after, function()
-        Spawndragon()
+        junglecamps()
         
     end)
+
+function junglecamps()
+
+
+
+if _G.canspawn == true then
+  local point = Entities:FindByName( nil, "jungleradiante1"):GetAbsOrigin()
+  local unit = CreateUnitByName("npc_dota_neutral_kobold", point, true, nil, nil, DOTA_TEAM_CUSTOM_1)
+  print("jungle has spawned")
+end
 
 -- testing
 
